@@ -13,7 +13,7 @@ public class Student implements Serializable {
     String email;
     String imageUrl;
     String phone;
-//    @Column(nullable = false, updatable = false)
+    @Column(nullable = false, updatable = false)
     String studentCode;
 
     public Student() {
